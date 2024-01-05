@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8"><!--문자형태 선택-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--스마트폰연동하는 뷰포트 기본자동설정됨-->
+  <title>펩시골라</title>
+  <link rel="shorcut icon" href="images/x-icon"><!--링크 필수-->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobie.css">
+  <link rel="stylesheet" href="css/print.css">
+</head>
+
+<body>
+  <!--id는 큰요소!! class는 하위 요소!!-->
+  <div id="header"><!--헤더: 문서소개,매뉴,검색등등-->
+    <div class="logo mx-auto my-50"><!--로고 스타일 설정,가운데 정렬,상하여백-->
+      <img src="images/logo.png" alt="펩시골라 로고"><!--로고이미지 불러오고 설명달기-->
+    </div><!--로고설정 끝-->
+    <div class="nav bg-nav text-center"><!--네비게이션 장치(마우스클릭부분)-->
+      <a href="#" class="mx-10">펩시소개</a><!--링크 스타일 설정,컬러와 글자설정-->
+      <a href="#" class="mx-10">콜라종류</a>
+      <a href="#" class="mx-10">갤러리</a>
+      <a href="#" class="mx-10">고객센터</a>
+    </div><!--네비게이션 설정 끝-->
+  </div><!--헤더 설정 끝-->
+
+  <div id="main"><!-- 본문 : 문서의 가운데(핵심내용),서론,본론,결론-->
+    <div class="cf mx-auto my-30"><!--광고로고 스타일 설정,중앙 정렬,상하여백-->
+      <img src="images/visual.png" alt="광고"><!--광고로고 불러오고 설명-->
+    </div><!--광고설정 끝-->
+    <div class="movie"><!--무비 스타일 설정, -->
+      <h2 class="text-center text-upper">MOVIE</h2><!--센터정렬, upper정렬-->
+      <h2 class="text-center text-upper">무비감상</h2><!--센터정렬, upper정렬-->
+      <div class="movie-poster mx-auto my-5">
+        <img src="images/movie1.jpg" alt="movie로고">
+        <img src="images/movie2.jpg" alt="무비감상로고">
+      </div>
+    </div>
+    <div class="sns text-center my-30 bg-sns py-10"><!--하위 자식 속성들을 여기서 설정-->
+      <img src="images/kakao_icon.png" alt="카카오톡" class="mx-5"><!--하위 자식 속성 설정을 각각각 해도됨-->
+      <img src="images/naver_icon.png" alt="네이버블로그" class="mx-5">
+      <img src="images/yellow_icon.png" alt="카카오스토리" class="mx-5">
+      <img src="images/insta_icon.png" alt="인스타그램" class="mx-5">
+    </div>
+  </div><!--메인 작업 종료-->
+
+  <div id="footer"><!--id는 큰 요소-->
+    <div class="phone">
+      <h2 class="cs-title text-center text-upper">pepsi cs center</h2>
+      <p class="cs-number text-center">
+        <a href="#" tel="+8215663082">1566-3082 </a>
+      </p>
+    </div>
+    <hr class="divider my-30"><!--수평선 설정-->
+    <div class="addreess text-center text-upper"><!--부모레벨에서 자식레벨 설정 해도됨!!-->
+      <p class="address text-ko">광주광역시 서구 경열로 3(농성동 271-4)</p>
+      <p>copyright&copy;2024. <strong class="brand">pepsi</strong> all rights reserved.</p>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+@charset "utf-8";
+/*
+아이디 선택자(#): 문서내에서 단 한번만 사용
+클래스 선택자(.): 문서내에서 여러번 반복/재사용
+*/
+
+/*===============0.스타일 공통 속성=============*/
+
+
+.mx-auto{
+  margin: 0 auto;
+}
+.mx-10{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.my-5{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.my-20{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.my-30{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.my-50{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.logo{
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+.poto1{
+  width: 600px;
+  height: 360px;
+}
+.poto2-1{
+  width: 300px;
+  height: 220px;
+  font-size: 0;
+}
+.poto2-2{
+  width: 300px;
+  height: 220px;
+  font-size: 0;
+}
+.text-deli{
+  font-size: 18px;
+}
+.text-upper{
+  text-transform: uppercase;
+}
+.text-center{
+  text-align: center;
+}
+.text-box{
+  font-size: 15px;
+  width: 300px;
+  border: 1px solid #333
+}
+.text-deli{
+  font-size: 18px;
+}
+.text-be{
+  font-size: 11px;
+}
+text-pone{
+  font-size: 20px;
+  color: #d075c3;
+}
+.text-adr{
+  font-size: 12px;
+}
+.lo-text{
+  font-size: 20px;
+  color: #eb89dd;
+}
+.new-text{
+  font-size: 18px;
+  color: black;
+}
+.divider{
+  border:0;
+  height: 1px;
+  background-color: #d075c3;
+}
+.img2{
+  width: 600px;
+  height: 220px;
+  font-size: 0;
+}
