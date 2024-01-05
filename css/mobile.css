@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+@media  screen and (max-width: 600px) {
+  .cf{
+    width:100vw;/*vw는 모바일용 뷰포트 가로 세로*/
+    height:auto;
+  }
+  .cf-1{
+    width:368px;/*vw는 모바일용 뷰포트 가로 세로*/
+    height:auto;
+  }
+  .cf-img{
+    width:100%;/*고정크기*/
+  }
+  .movie-poster{
+    width: 100vw;
+    height: 200px;
+  }
+  .movie-poster img{
+    width: 600px;
+    
+  }
+  #pooter{
+    margin-bottom: 30px;
+  }
+}
